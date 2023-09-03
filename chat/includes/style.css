@@ -1,0 +1,96 @@
+body, html {
+  height: 99vh;
+  margin: 0;
+}
+header{
+    background-color: rgba(0,0,0,.4);
+    padding: 5px;
+}
+#time{
+    margin-left:10px;
+    display: inline-block;
+    width: 70%;
+}
+body {
+    background-image:url("images/home-img.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#welcome-css p{
+    margin: 5px;
+    background:linear-gradient(to right, skyblue, turquoise);
+    text-align: center; 
+    width: 100%;
+    padding: 5px;
+    text-shadow: 2px 2px chartreuse;
+    font-size: 3rem;
+}
+header nav a{
+    display: inline-block;
+    background-color:rgb(red, green, rgb(32, 200, 241));
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+header nav a:hover{
+    background-color:skyblue;
+    color: black;
+}
+
+#box{
+    width: 280px;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+    background: rgba(0,0,0,.5);
+}
+form{
+    margin-top: 50px;
+}
+form input[type="text"],form input[type="password"] {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+}
+form input[type="text"]:focus,form input[type="password"]:focus{
+   background-color: turquoise;
+   
+}
+form input[type='submit']{
+    margin-left: 30%;
+    background-color:turquoise;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+form input[type="submit"]:hover{
+    background-color:skyblue;
+    color: black;
+}
+span{
+    font-size: 1.5rem;
+    color:white;
+}
+a{
+
+    background-color:turquoise;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+a:hover{
+    background-color:skyblue;
+    color: black;
+}

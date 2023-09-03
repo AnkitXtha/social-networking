@@ -1,0 +1,344 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 20px;
+    background-color: white;
+
+}
+.div1{
+
+	height: 100%;
+	background: white;
+}
+
+.div1 .home{
+	border: 1px solid black;
+	margin-top: 80px;
+	margin-left: 100px;
+	width: 40%;
+	padding-bottom:1px ;
+	font-size: 25px;
+	font-weight: 700;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 30px;
+}
+.div1 .profile,  .logout{
+	border: 1px solid black;
+	width: 35%;
+	padding-bottom:1px ;
+	font-weight: 700;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.div1  .message{
+	border: 1px solid black;
+	width: 40%;
+	padding-bottom:1px ;
+	font-weight: 700;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.div1 .home, .profile, .message , .logout, a{
+	color: black;
+	text-decoration: none;
+}
+.div1 .home:hover, .profile:hover, .message:hover, .logout:hover, a:hover{
+	color: lightgray;
+	background-color: #000106;
+	
+}
+
+.fa-home, .fa-envelope, .fa-user, .fa-sign-out{
+	margin-right: 15px;
+}
+
+.div2{
+		
+	height: 100%;	
+}
+.div2 .home{
+	border: 1px solid whitesmoke;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 3px;
+}
+.div2 .fa-moon-o{
+	float: right;
+	margin-right: 10px;
+}
+.div2 .post{
+	border: 1px solid whitesmoke;
+	padding-left: 5px;
+	
+}
+.div2 .feed{
+	border: 1px solid whitesmoke;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+
+
+ #search{
+ 	border: 1px solid whitesmoke;
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+}
+.search-container button {
+  
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .search-container button:hover {
+  background: #ccc;
+}
+/*.div3 .chat{
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-left: 7px;
+	margin-top: 10px;
+	width: 80%;
+}
+.div3 .chat a{
+	display: flex;
+	padding bottom: 20px;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+/*users area css code*/
+div.div3 {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	border : 2px solid lightgray;
+	padding: 5px;
+	height: 650px;
+
+}
+
+
+
+
+.users{
+	padding: 25px 30px;
+}
+
+.users header, 
+.users-list a{
+	display: flex;
+	padding-bottom: 2px;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #e6e6e6;
+
+}
+
+.div3 img{
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+
+.users header .content{
+	display: flex;
+	align-items: center;
+}
+
+.users header .content img{
+	height: 50px;
+	width: 50px;
+}
+.users .status-dot{
+	font-size: 12px;
+	color: #468669;
+}
+
+
+.users header .details{
+	margin-left: 15px;
+}
+.users  .details span{
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 15px;
+}
+.users .details p{
+	font-size: 12px;
+}
+.users .msearch{
+	margin: 10px 0;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+
+}
+.users .msearch .text{
+	font-size: 18px;
+
+}
+.users .msearch input{
+	position: absolute;
+	height: 32px;
+	width: 80%;
+	border : 1px solid #ccc;
+	padding : 0 13px;
+	font-size: 13px;
+	border-radius: 5px;
+	outline: none;
+
+
+}
+.users .msearch button{
+	width: 35px;
+	height: 32px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: grey;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+	font-size: 15px;
+}																																																																												
+
+.users-list{
+	max-height:450px;
+	overflow-y: auto;}
+.users-list::-webkit-scrollbar{
+	width: 0px;
+}
+
+.users-list a{
+	margin-bottom: 15px;
+	page-break-after: 10px;
+	padding-right: 15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.users-list a:last-child{
+	border:none;
+	margin-bottom: 0px;
+}
+.users-list a .content img{
+	height: 40px;
+	width: 40px;
+
+}
+.users-list .content{
+	display: flex;
+	align-items: center;
+}
+.users-list .details{
+	margin-left: 15px;
+	line-height: 10px;
+	margin-top: 15px;
+}
+.users-list .details span{
+	font-size: 13px;
+	font-weight: 500px;
+}
+.users-list a .status-dot{
+	font-size: 12px;
+	color: #468669;
+}
+/*chat area css*/
+
+
+.chat-area header {
+    display: flex;
+    align-items: center;
+    padding: 18px 30px;
+    line-height: 5px;
+    font-size: 12px;
+
+}
+.chat-area header .back-icon{
+	font-size: 18px;
+	color: #333;
+}
+
+.chat-area header img{
+	height: 45px;
+	width: 45px;
+	margin: 0 15px;
+
+}
+.chat-area header span{
+	font-size: 17px;
+	font-weight: 500;
+
+}
+.chat-box{
+	height: 450px;
+	background: white;
+	padding: 10px 30px 20px 30px;
+	box-shadow : inset 0 32px 32px -32px rgb(0 0 0 / 10%), inset 0 -32px 32px -32px rgb(0 0 0 / 10%);
+
+}
+.chat-box .chat p{
+	padding: 8px 16px;
+}
+.chat-box .outgoing{
+	display: flex;
+}
+.outgoing .details{
+	max-width: calc(100%-130px);
+	margin-left: auto;
+}
+.chat-box .details p{
+	background: #333;
+	color: #fff;
+	border-radius: 18px 18px 0 18px; 
+}
+.chat-box .incoming{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.chat-box .incoming img{
+	height: 35px;
+
+	width:  35px;
+}
+.incoming .details{
+	margin-left: 10px;
+	margin-right: auto;
+	max-width: calc(100% - 130px);
+
+
+
+}
+.incoming .details p{
+	color: #333;
+	background: skyblue;
+	border-radius: 18px 18px 18px 0;
+}
