@@ -1,2 +1,2 @@
 # social-networking
-Basic social network project with no good front-end UIs
+Basic social network project developed using core php, HTML, CSS and Javascript. Made by me and my team mates as a college project.
